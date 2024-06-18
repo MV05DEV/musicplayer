@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    justify-content: center;
+    background-color: green;
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 99vmin;
+    height: 80vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px 6px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.box {
+    text-align: center;
+}
+
+section {
+    color: #7af7f7;
+    font-size: 30px;
+}
+
+div button {
+    width: 25vmin;
+    height: 25vmin;
+    border-radius: 5px;
+    box-shadow: 0 0px 3px 0 rgba(0, 0, 0, 0.2);
+    color: red;
+    font-size: 45px;
+    background-color: aquamarine;
+    border: none;
+}
+
+.reset {
+    background-color: black;
+    color: white;
+    width: 50px;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+}
+
+.New-Game {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 3px;
+}
+
+.hide {
+    display: none;
+}
