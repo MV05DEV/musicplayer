@@ -1,6 +1,6 @@
 let csong = new Audio
 async function getsongs() {
-    let a = await fetch("/musicplayer/songs/")
+    let a = await fetch("https://mv05dev.github.io/musicplayer/songs/")
     let b = await a.text()
     let div = document.createElement("div")
     div.innerHTML = b
